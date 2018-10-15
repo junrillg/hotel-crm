@@ -1,4 +1,5 @@
 # Hotel CRM
+
 > Built on MongoDB, Express, Angular and Nodejs
 
 ## Development server
@@ -8,6 +9,7 @@ Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app 
 Run `npm run start:server` for the nodejs server to run, which will be hosted by default on `http://localhost:3000`
 
 ## Enironment Variables
+
 Create a `.env` file that requires this `DB_MONGO_URI` property taken from MongoDB Atlas
 
 ## Code scaffolding
