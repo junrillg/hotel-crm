@@ -9,7 +9,7 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "start:server": "nodemon server.js",
-        "format": "prettier --tab-width 4 --single-quote true --trailing-comma es5 --write *.{js,json,css,md,ts}"
+        "format": "prettier --tab-width 4 --single-quote true --trailing-comma es5 --write **/*.{js,json,css,md,ts}"
     },
     "private": true,
     "dependencies": {
@@ -64,7 +64,7 @@
         }
     },
     "lint-staged": {
-        "*.{js,json,css,md,ts}": [
+        "**/*.{js,json,css,md,ts}": [
             "prettier --write",
             "git add"
         ]
